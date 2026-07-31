@@ -278,4 +278,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file.
 
 This is an independent n8n community node.
 
-SMSAPI is a trademark of its respective owner. This project is not an official SMSAPI product unless explicitly stated by SMSAPI.
+SMSAPI is a trademark of its respective owner. This project is an official SMSAPI product.
