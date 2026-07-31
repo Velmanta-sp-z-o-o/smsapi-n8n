@@ -1,0 +1,12 @@
+﻿node_modules/
+dist/
+.env
+.env.*
+*.log
+*.tgz
+*.zip
+.n8n-node-cli/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
