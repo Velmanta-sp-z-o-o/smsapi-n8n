@@ -14,8 +14,8 @@
     "url": "git+https://github.com/Velmanta-sp-z-o-o/smsapi-n8n.git"
   }
   "author": {
-    "name": "KatarzynaCichowska",
-    "email": "kcichowska@velmanta.com"
+    "name": "Velmanta",
+    "email": "support@velmanta.com"
   },
   "scripts": {
     "build": "n8n-node build",
