@@ -36,7 +36,7 @@
       "dist/credentials/SmsApi.credentials.js"
     ],
     "nodes": [
-        "dist/nodes/SmsApi/SmsApi.node.js"
+      "dist/nodes/SmsApi/SmsApi.node.js"
     ]
   },
   "devDependencies": {
@@ -48,5 +48,8 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
