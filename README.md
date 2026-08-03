@@ -1,4 +1,4 @@
-# @velmanta/n8n-nodes-smsapi
+﻿# @velmanta/n8n-nodes-smsapi
 
 An n8n community node for sending SMS messages through [SMSAPI](https://www.smsapi.pl/).
 
@@ -57,9 +57,9 @@ Restart n8n after installation.
 3. Add the **SMSAPI** node to a workflow.
 4. Configure:
 
-   * **SMS Recipient** — phone number including the country code
-   * **SMS Body** — message content
-   * **Sender Name or ID** — an active sender name from SMSAPI
+   * **SMS Recipient** â€” phone number including the country code
+   * **SMS Body** â€” message content
+   * **Sender Name or ID** â€” an active sender name from SMSAPI
 
 Example phone number:
 
@@ -102,3 +102,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file.
 This is an independently maintained n8n community node.
 
 SMSAPI is a trademark of its respective owner. This project is an official SMSAPI product.
+
