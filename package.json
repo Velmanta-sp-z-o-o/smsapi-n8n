@@ -9,6 +9,10 @@
     "sms",
     "smsapi"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Velmanta-sp-z-o-o/smsapi-n8n.git"
+  }
   "author": {
     "name": "KatarzynaCichowska",
     "email": "kcichowska@velmanta.com"
