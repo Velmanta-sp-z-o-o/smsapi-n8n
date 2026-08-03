@@ -116,7 +116,6 @@ to
 message
 format=json
 encoding=utf-8
-partner_id=JKJV
 idx
 check_idx=1
 ```
