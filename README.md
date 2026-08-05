@@ -57,9 +57,9 @@ Restart n8n after installation.
 3. Add the **SMSAPI** node to a workflow.
 4. Configure:
 
-   * **SMS Recipient** â€” phone number including the country code
-   * **SMS Body** â€” message content
-   * **Sender Name or ID** â€” an active sender name from SMSAPI
+   * **SMS Recipient** — phone number including the country code
+   * **SMS Body** — message content
+   * **Sender Name or ID** — an active sender name from SMSAPI
 
 Example phone number:
 
@@ -99,7 +99,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file.
 
 ## Disclaimer
 
-This is an independently maintained n8n community node.
+This package is distributed as an n8n community node. It was developed by an external company commissioned by SMSAPI and is an official SMSAPI product.
 
-SMSAPI is a trademark of its respective owner. This project is an official SMSAPI product.
-
+SMSAPI is a trademark of its respective owner.

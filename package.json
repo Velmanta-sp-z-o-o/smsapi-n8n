@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Velmanta-sp-z-o-o/smsapi-n8n.git"
   },
+  "homepage": "https://github.com/Velmanta-sp-z-o-o/smsapi-n8n#readme",
   "author": {
     "name": "Velmanta sp.z.o.o",
     "email": "support@velmanta.com"
