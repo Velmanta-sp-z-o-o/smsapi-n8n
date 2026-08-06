@@ -99,6 +99,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file.
 
 ## Disclaimer
 
-This package is distributed as an n8n community node. It was developed by an external company commissioned by SMSAPI and is an official SMSAPI product.
+This package is distributed as an n8n community node. This package was developed by Velmanta on commission from SMSAPI.
 
 SMSAPI is a trademark of its respective owner.
