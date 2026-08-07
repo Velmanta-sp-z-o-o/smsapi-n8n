@@ -255,6 +255,21 @@ export class SmsApi implements INodeType {
 
 		properties: [
 			{
+				displayName: 'Operation',
+				name: 'operation',
+				type: 'options',
+				noDataExpression: true,
+				options: [
+					{
+						name: 'Send SMS',
+						value: 'send',
+						description: 'Send an SMS message',
+						action: 'Send an SMS',
+					},
+				],
+				default: 'send',
+			},
+			{
 				displayName:
 					'SMS Recipient (Phone Number)',
 				name: 'recipient',
