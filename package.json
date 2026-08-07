@@ -1,6 +1,6 @@
 {
   "name": "@velmanta/n8n-nodes-smsapi",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "n8n community node for sending SMS messages through SMSAPI",
   "license": "MIT",
   "keywords": [
