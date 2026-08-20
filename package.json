@@ -16,7 +16,7 @@
   "homepage": "https://github.com/Velmanta-sp-z-o-o/smsapi-n8n#readme",
   "author": {
     "name": "Velmanta sp.z.o.o",
-    "email": "support@velmanta.com"
+    "email": "velmanta@velmanta.com"
   },
   "scripts": {
     "build": "n8n-node build",
