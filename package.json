@@ -1,5 +1,5 @@
 {
-  "name": "@smsapi/n8n-nodes-smsapi",
+  "name": "@smsapi-linkmobility/n8n-nodes-smsapi",
   "version": "1.2.5",
   "description": "n8n community node for sending SMS messages through SMSAPI",
   "license": "MIT",
