@@ -1,4 +1,4 @@
-﻿# @velmanta/n8n-nodes-smsapi
+﻿# @smsapi-linkmobility/n8n-nodes-smsapi
 
 An n8n community node for sending SMS messages through [SMSAPI](https://www.smsapi.pl/).
 
@@ -35,7 +35,7 @@ The required permissions are commonly named `sms` and `sms_sender`.
 5. Enter:
 
 ```text
-@velmanta/n8n-nodes-smsapi
+@smsapi-linkmobility/n8n-nodes-smsapi
 ```
 
 6. Confirm the installation.
@@ -45,7 +45,7 @@ The required permissions are commonly named `sms` and `sms_sender`.
 From the n8n custom nodes directory, run:
 
 ```bash
-npm install @velmanta/n8n-nodes-smsapi
+npm install @smsapi-linkmobility/n8n-nodes-smsapi
 ```
 
 Restart n8n after installation.
