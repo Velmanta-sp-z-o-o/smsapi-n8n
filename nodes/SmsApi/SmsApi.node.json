@@ -1,5 +1,5 @@
 {
-  "node": "@velmanta/n8n-nodes-smsapi.smsApi",
+  "node": "@smsapi-linkmobility/n8n-nodes-smsapi.smsApi",
   "nodeVersion": "1.0",
   "codexVersion": "1.0",
   "categories": ["Communication"],
