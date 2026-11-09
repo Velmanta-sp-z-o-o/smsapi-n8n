@@ -230,7 +230,7 @@ function createSafeResponseSummary(
 
 export class SmsApi implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'SMS API - Send an SMS',
+		displayName: 'SMSAPI',
 		name: 'smsApi',
 		icon: {
 			light: 'file:sms-api-n8n.png',
@@ -241,7 +241,7 @@ export class SmsApi implements INodeType {
 		subtitle: '={{$parameter["senderName"] ? "From: " + $parameter["senderName"] : "Send SMS"}}',
 		description: 'Send an SMS using SMSAPI',
 		defaults: {
-			name: 'SMS API',
+			name: 'SMSAPI',
 		},
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

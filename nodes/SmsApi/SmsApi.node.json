@@ -3,6 +3,13 @@
   "nodeVersion": "1.0",
   "codexVersion": "1.0",
   "categories": ["Communication"],
+  "alias": [
+    "SMSAPI",
+    "SMS API",
+    "Send SMS",
+    "SMS Gateway",
+    "Text Message"
+  ],
   "resources": {
     "credentialDocumentation": [
       {
