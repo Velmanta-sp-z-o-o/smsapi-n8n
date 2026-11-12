@@ -12,15 +12,15 @@ export class SmsApi implements ICredentialType {
 	displayName = 'SMSAPI API';
 
 	icon: Icon = {
-		light: 'file:../nodes/SmsApi/sms-api-n8n.png',
-		dark: 'file:../nodes/SmsApi/sms-api-n8n-dark.png',
+		light: 'file:../nodes/SmsApi/smsapi.svg',
+		dark: 'file:../nodes/SmsApi/smsapi-dark.svg',
 	};
 
 	documentationUrl = 'https://www.smsapi.pl/docs/';
 
 	properties: INodeProperties[] = [
 		{
-			displayName: 'API Token SMS API',
+			displayName: 'API Token SMSAPI',
 			name: 'token',
 			type: 'string',
 			typeOptions: {

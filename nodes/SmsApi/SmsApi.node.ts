@@ -17,7 +17,7 @@ import {
 } from 'n8n-workflow';
 
 const SMSAPI_BASE_URL = 'https://api.smsapi.pl';
-const SMSAPI_PARTNER_ID = 'JKJV';
+const SMSAPI_PARTNER_ID = '4AYM';
 
 const REQUEST_TIMEOUT_MS = 30_000;
 const RETRY_DELAYS_MS = [
@@ -233,8 +233,8 @@ export class SmsApi implements INodeType {
 		displayName: 'SMSAPI',
 		name: 'smsApi',
 		icon: {
-			light: 'file:sms-api-n8n.png',
-			dark: 'file:sms-api-n8n-dark.png',
+			light: 'file:smsapi.svg',
+			dark: 'file:smsapi-dark.svg',
 		},
 		group: ['input'],
 		version: 1,
