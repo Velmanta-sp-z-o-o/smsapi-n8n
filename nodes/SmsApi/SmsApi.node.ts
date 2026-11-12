@@ -679,12 +679,36 @@ export class SmsApi implements INodeType {
 						);
 					}
 
-					sendResult = {
+
+						const messages = result.list;
+						const firstMessage =
+						Array.isArray(messages) && messages.length === 1
+							? messages[0]
+							: undefined;
+
+						if (
+						result.count !== 1 ||
+						!isObject(firstMessage) ||
+						typeof firstMessage.id !== 'string' ||
+						firstMessage.id.trim() === '' ||
+						typeof firstMessage.status !== 'string' ||
+						firstMessage.status.trim() === '' ||
+						firstMessage.error != null
+						) {
+						throw new NodeOperationError(
+							this.getNode(),
+							'SMSAPI returned an invalid response: missing message ID, status, or invalid message count',
+							{ itemIndex },
+						);
+						}
+
+						sendResult = {
 						response: result,
 						attempts: attempt,
 						duplicatePrevented:
 							false,
 					};
+
 
 					break;
 				}
